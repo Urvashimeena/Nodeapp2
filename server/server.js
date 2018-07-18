@@ -25,52 +25,6 @@ app.post("/todo", (req, res) => {
 app.listen(3000 , () => {
 	console.log("Server is start at port 3000");
 });
-//User collectiom
 
 
-
-// var user =  new User({
-// 	username: "Made the food",
-// 	name : 'true',
-// 	required: true
-
-// });
-
-
-// user.save().then((doc) => {
-// 	console.log(JSON.stringify(doc , undefined , 2));
-// }, (err) => {
-//    	console.log('Unable to save the data');
-// });
-
-//Todo collections1
-
-
-
-
-// var newTodo =  new Todo({
-// 	text: "cook the food"
-// });
-
-// var OtherTodo =  new Todo({
-// 	text: "Made the food",
-// 	completed : true,
-// 	completedAt : 123
-// });
-
-// var OtherTodo =  new Todo({
-// 	text: " yes this is true",
-
-// });
-
-// OtherTodo.save().then((doc) => {
-// 	console.log(JSON.stringify(doc , undefined , 2));
-// }, (err) => {
-//    	console.log('Unable to save the data');
-// });
-
-// newTodo.save().then((result) => {
-// 	console.log("Saved Todo",result);
-// }, (err) => {
-// 	console.log("Unable to save data");
-// });
+module.exports = {app};
